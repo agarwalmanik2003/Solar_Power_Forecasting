@@ -3,10 +3,9 @@
 This project implements a deep learning model (LSTM) to forecast solar power generation using inverter-level plant data and weather sensor data.  
 It covers data cleaning, preprocessing, feature engineering, sequence creation, and LSTM model training.
 Submitted by:
-
 Suryansh Khatri(102215137)
-
 Manik Agarwal (102265006)
+
 ---
 
 ## Project Structure
