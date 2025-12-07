@@ -1,11 +1,11 @@
-# 🌞 Solar Power Forecasting using LSTM
+# Solar Power Forecasting using LSTM
 
 This project implements a deep learning model (LSTM) to forecast solar power generation using inverter-level plant data and weather sensor data.  
 It covers data cleaning, preprocessing, feature engineering, sequence creation, and LSTM model training.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Solar_power_forecasting/
@@ -32,7 +32,7 @@ Solar_power_forecasting/
 
 ---
 
-# 🔧 Project Workflow (Text-Based Flowcharts)
+# Project Workflow (Text-Based Flowcharts)
 
 ### **Overall Workflow**
 
@@ -72,9 +72,9 @@ Predicted Solar Power
 
 ---
 
-# 🔧 Steps Performed
+# Steps Performed
 
-### ✔ 1. Data Cleaning & Merging
+### 1. Data Cleaning & Merging
 - Removed duplicates and missing rows  
 - Cleaned night-time zero-generation entries  
 - Standardized timestamps  
@@ -82,7 +82,7 @@ Predicted Solar Power
 
 ---
 
-### ✔ 2. Feature Engineering
+### 2. Feature Engineering
 - Added hour, day, month  
 - Generated time-based patterns  
 - Scaled features  
@@ -90,7 +90,7 @@ Predicted Solar Power
 
 ---
 
-### ✔ 3. LSTM Model Training
+### 3. LSTM Model Training
 - Used stacked LSTM layers  
 - Tuned batch size, learning rate, epochs  
 - Performance:
@@ -102,7 +102,7 @@ Model saved as:
 
 ---
 
-# 🚀 How to Run the Project
+# How to Run the Project
 
 ### Install Dependencies
 ```bash
@@ -123,7 +123,7 @@ print(prediction)
 
 ---
 
-# 📈 Results
+# Results
 
 | Metric | Value |
 |--------|--------|
@@ -134,7 +134,7 @@ The model successfully captures daily generation patterns and performs well on r
 
 ---
 
-# 🧠 Key Features
+# Key Features
 
 - End-to-end solar forecasting pipeline  
 - Cleaned & processed real plant dataset  
@@ -145,7 +145,7 @@ The model successfully captures daily generation patterns and performs well on r
 
 ---
 
-# 🤝 Contributors
+# Contributors
 
 This project was created as part of a Solar Power Forecasting microproject.  
 Responsibilities included:
@@ -155,7 +155,7 @@ Responsibilities included:
 
 ---
 
-# 📜 License
+# License
 
 This project is available for academic and learning usage.
 
