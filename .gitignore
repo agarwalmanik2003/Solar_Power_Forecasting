@@ -1,0 +1,6 @@
+# Large binary files not tracked in git
+*.npy
+*.h5
+
+# Optional: Jupyter notebook checkpoints
+.ipynb_checkpoints/
